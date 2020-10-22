@@ -15,4 +15,6 @@ Code for the talk "pragmatic maven"
 ### check for dependecy updates
     mvn versions:display-dependency-updates
 	
+### security check
+	mvn org.owasp:dependency-check-maven:check
 	

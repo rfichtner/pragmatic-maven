@@ -17,4 +17,8 @@ Code for the talk "pragmatic maven"
 	
 ### security check
 	mvn org.owasp:dependency-check-maven:check
+
+### license report 
+    mvn project-info-reports:dependencies
+    mvn license:third-party-report
 	

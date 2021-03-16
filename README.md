@@ -22,3 +22,8 @@ Code for the talk "pragmatic maven"
     mvn project-info-reports:dependencies
     mvn license:third-party-report
 	
+### maven profiler
+    mvn verify -Dprofile
+    mvn clean verify -Dprofile
+    mvn clean install -Dprofile
+    
